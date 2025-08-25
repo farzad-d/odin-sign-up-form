@@ -46,3 +46,7 @@ body {
   font-size: 6rem;
   color: white;
 }
+
+form {
+  padding: 0 40px;
+}
