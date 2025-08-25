@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Norse";
+  src: url("/assets/fonts/Norse-Bold.woff2") format("woff2"),
+    url("/assets/fonts/Norse-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   background-color: lightgray;
   display: flex;
@@ -17,13 +26,23 @@ body {
 }
 
 .logo {
-  width: 125px;
+  width: 100px;
   height: auto;
-  top: 200px;
-  left: 50px;
 }
 
-.logo-bg .logo {
+.logo-bg {
   position: absolute;
-  background-color: black;
+  background-color: #00000075;
+  width: 100%;
+  top: 150px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-text {
+  font-family: Norse;
+  font-size: 6rem;
+  color: white;
 }
